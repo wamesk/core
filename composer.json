@@ -1,16 +1,11 @@
 {
 	"name": "wamesk/core",
-	"description": "",
 	"type": "library",
-	"version": "1.0",
 	"license": "proprietary",
 	"require": {},
 	"autoload": {
 		"psr-4": {
-			"Wame\\Core\\": "src/",
-			"Wame\\Core\\Tests\\": "tests/",
-			"Wame\\Core\\Database\\Factories\\": "database/factories/",
-			"Wame\\Core\\Database\\Seeders\\": "database/seeders/"
+			"Wame\\Core\\": "src/"
 		}
 	},
 	"minimum-stability": "stable",
