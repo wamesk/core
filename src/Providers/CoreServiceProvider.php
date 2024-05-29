@@ -3,6 +3,7 @@
 namespace Wame\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Laravel\Nova\Nova;
 
 class CoreServiceProvider extends ServiceProvider
 {
@@ -12,5 +13,6 @@ class CoreServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        Footer::make();
     }
 }
